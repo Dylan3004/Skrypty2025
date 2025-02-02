@@ -9,7 +9,8 @@ Projekt powinien miec mozliwosc grania z SI , dwoma graczami (po kolei) jak i ob
 
 # 2 Python. Czatbot eSport
 
-Projekt spełnia tylko podstawowe wymaganie (3) ścieżek dialogowych
+Projekt spełnia tylko podstawowe wymaganie (3) ścieżek dialogowych.
+Dane dotyczące tokenow zostały zastąpione przez 'xxx' ze względów bezpieczeństwa, natomiast chętnie zaprezentuje jak bot działa w praktyce .
 
 # 3 JS. Zamek w Minecraft
 

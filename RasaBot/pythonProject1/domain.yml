@@ -1,0 +1,51 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_results
+  - inform
+  - ask_tournaments
+  - ask_player
+  - more_info_about_player
+  - thanks
+
+responses:
+  utter_greet:
+    - text: "Cześć! Witaj w świecie e-sportu! Jak mogę Ci pomóc dzisiaj?"
+    - text: "Hej! Miło Cię widzieć. Co słychać w świecie e-sportu?"
+  utter_ask_favorite_game:
+    - text: "Jaka jest Twoja ulubiona gra e-sportowa?"
+  utter_ask_match_details:
+    - text: "Z jakiego turnieju lub meczu chcesz poznać wyniki?"
+  utter_provide_results:
+    - text: "Ostatni mecz kolejki zakończył się wynikiem 2:1 dla gospodarzy."
+  utter_ask_tournament_game:
+    - text: "Dla której gry chcesz zobaczyć nadchodzące turnieje?"
+  utter_provide_tournament_info:
+    - text: "Najbliższy turniej w tej grze odbędzie się 25 grudnia i odbywa się w Las Vegas."
+  utter_ask_player_name:
+    - text: "O którego gracza chcesz zapytać?"
+  utter_provide_player_info:
+    - text: "Ten zawodnik jest znany ze swoich osiągnięć i zdobył 10 tytułów mistrzowskich."
+  utter_goodbye:
+    - text: "Do zobaczenia! Powodzenia w e-sporcie!"
+  utter_thank:
+    - text: "Nie ma sprawy! Zawsze służę pomocą!"
+
+actions:
+  - utter_greet
+  - utter_ask_favorite_game
+  - utter_ask_match_details
+  - utter_provide_results
+  - utter_ask_tournament_game
+  - utter_provide_tournament_info
+  - utter_ask_player_name
+  - utter_provide_player_info
+  - utter_goodbye
+  - utter_thank
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

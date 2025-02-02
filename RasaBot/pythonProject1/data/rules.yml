@@ -1,0 +1,44 @@
+- rule: Odpowiedź na powitanie
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Odpowiedź na powitanie
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Odpowiedź na pożegnanie
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Pytanie o wyniki meczu
+  steps:
+    - intent: ask_results
+    - action: utter_ask_match_details
+
+- rule: Informacja o wynikach meczu
+  steps:
+    - intent: inform
+    - action: utter_provide_results
+
+- rule: Pytanie o nadchodzące turnieje
+  steps:
+    - intent: ask_tournaments
+    - action: utter_ask_tournament_game
+
+- rule: Informacja o nadchodzących turniejach
+  steps:
+    - intent: inform
+    - action: utter_provide_tournament_info
+
+- rule: Pytanie o gracza
+  steps:
+    - intent: ask_player
+    - action: utter_ask_player_name
+
+- rule: Informacja o graczu
+  steps:
+    - intent: more_info_about_player
+    - action: utter_provide_player_info

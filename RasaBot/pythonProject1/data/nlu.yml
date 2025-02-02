@@ -1,0 +1,86 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hej
+    - cześć
+    - witam
+    - siema
+    - co słychać
+    - co tam
+    - co u ciebie
+    - witaj bocie
+- intent: ask_results
+  examples: |
+    - Jakie były wyniki ostatniego meczu?
+    - Kto wygrał mecz w CS:GO?
+    - Jak skończył się mecz w Rocket League?
+    - Kto wygrał w League of Legends?
+    - Jak skończył się mecz w Fortnite?
+    - Kto wygrał w Dota 2?
+    - Jak skończył się mecz w Valorant?
+- intent: inform
+  examples: |
+    - mecz G2 Esports z Na'Vi
+    - finał LEC
+    - mecz Virtus.pro z Astralis
+    - turniej ESL One
+    - mecz w Rocket League
+    - mecz w League of Legends
+    - finał Worlds
+    - CS:GO
+    - League of Legends
+    - Rocket League
+    - Fortnite
+    - Dota 2
+    - Valorant
+    - Overwatch
+    - Starcraft 2
+- intent: ask_tournaments
+  examples: |
+    - Jakie turnieje będą wkrótce?
+    - Kiedy następny turniej?
+    - Kiedy odbędzie się turniej w CS:GO?
+    - Kiedy odbędzie się turniej w League of Legends?
+    - Kiedy odbędzie się turniej w Rocket League?
+    - Kiedy odbędzie się turniej w Fortnite?
+    - Kiedy odbędzie się turniej w Dota 2?
+- intent: ask_player
+  examples: |
+    - Powiedz mi coś o jakimś graczu
+    - Kto jest najlepszym graczem w CS:GO?
+    - Kto jest najlepszym graczem w League of Legends?
+    - Kto jest najlepszym graczem w Rocket League?
+    - Kto jest najlepszym graczem w Fortnite?
+
+- intent: goodbye
+  examples: |
+    - do widzenia
+    - cześć
+    - żegnaj
+    - do zobaczenia
+    - do następnego razu
+    - pa
+    - papa
+    - na razie
+    - elo
+- intent: thanks
+  examples:
+    -dzieki za informacje
+    -dzieki
+    -teraz juz wiem 
+    -dzieki za pomoc
+    -dzieki za odpowiedz
+    -oki
+- intent: more_info_about_player
+  examples: |
+    - chodzi mi o gracza ZywOo
+    - chodzi mi o gracza s1mple
+    - chodzi mi o gracza Faker
+    - chodzi mi o gracza N0tail
+    - chodzi mi o gracza Kjaerbye
+    - chodzi mi o gracza Xyp9x
+    - chodzi mi o gracza Magisk
+    - chodzi mi o gracza Dupreeh
+    - chodzi mi o gracza device

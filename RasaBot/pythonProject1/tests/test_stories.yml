@@ -1,0 +1,37 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: pytanie o wyniki meczu
+  steps:
+    - intent: ask_results
+    - action: utter_ask_match_details
+    - intent: inform
+    - action: utter_provide_results
+
+- story: pytanie o wyniki meczu
+  steps:
+    - intent: ask_results
+    - action: utter_ask_match_details
+    - intent: inform
+    - action: utter_provide_results
+
+- story: pytanie o nadchodzące turnieje
+  steps:
+    - intent: ask_tournaments
+    - action: utter_ask_tournament_game
+    - intent: inform
+    - action: utter_provide_tournament_info
+
+- story: pytanie o gracza
+  steps:
+    - intent: ask_player
+    - action: utter_ask_player_name
+    - intent: inform
+    - action: utter_provide_player_info
+- story: pożegnanie
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+
